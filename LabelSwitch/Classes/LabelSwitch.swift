@@ -151,6 +151,11 @@ private class LabelSwitchPart {
             setupCircle()
         }
     }
+  
+  func setFont(_ font: UIFont) {
+    leftPart.label.font = font
+    rightPart.label.font = font
+  }
     
     ///  Enable the swith
     public var isEnable: Bool = true
